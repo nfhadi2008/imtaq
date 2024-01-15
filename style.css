@@ -1,0 +1,64 @@
+*,
+html{
+    margin: 3px;
+    padding: 1;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+}
+.judul-2{
+    display: flex;
+    justify-content: center;
+}
+.container-footer {
+    border: top 10px;
+    width: 100%;
+    height: 50vh;
+    object-fit:fill;
+    shape-outside: -moz-repeating-linear-gradient();
+    box-shadow: 12;
+    text-shadow: 12;
+}
+.tipe {
+    list-style-type: none;
+    padding: 30px;
+    color: black;
+}
+.footer {
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+.judul h3 {
+    text-decoration: underline;
+}
+.shape {
+    width: 200px;
+    height: 200px;
+    background-color: white; /* Ganti dengan warna latar belakang yang diinginkan */
+    /* Menambahkan bayangan */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden; /* Memastikan overflow diatur agar gambar tidak keluar dari kotak */
+    border-radius: 10px; /* Menambahkan sudut melengkung ke kotak */
+  }
+  .shape img {
+    width: 100%; /* Gambar mengisi lebar kotak */
+    height: 100%; /* Gambar mengisi tinggi kotak */
+    object-fit: contain; /* Mempertahankan rasio aspek gambar dan memotong sesuai kotak */
+    max-width: 100%; /* Membatasi lebar gambar agar tidak melebihi lebar kotak */
+    max-height: 100%; /* Membatasi tinggi gambar agar tidak melebihi tinggi kotak */
+  }
+  .horizontal-list {
+    list-style: none; /* Menghapus tanda bullet default dari list */
+    padding: 0; /* Menghilangkan padding default */
+    margin: 0; /* Menghilangkan margin default */
+    display: flex; /* Menggunakan tata letak flexbox */
+  }
+
+  /* Style untuk setiap item list */
+  .horizontal-list-item {
+    margin-right: 10px; /* Jarak antara setiap item list */
+  }
